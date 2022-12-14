@@ -350,12 +350,12 @@ router.post("/updateolduser", async (req, res) => {
 router.get('/passwordrecoverynew/:LoginID', async (req, res) => {
   try {
 
-    const  LoginID = req.params.LoginID ;
+    const  LoginID = req.params.LoginID;
 
-    const result = await userLoginid.userloginid(req ,res , LoginID);
-    res.json(result);
+    const Result = await userLoginid.userloginid(req ,res , LoginID);
+    res.json(Result);
 
-    console.log(result);
+    console.log(Result);
     
   } catch (err) {
     res.status(406).send({
