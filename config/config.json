@@ -1,0 +1,29 @@
+{
+
+  "development": {
+    "username": "ezppay_dev_admin",
+    "password": "@cirruslabs123",
+    "database": "ezppaydevdb",
+    "host": "ezppay-dev-db.mysql.database.azure.com",
+    "dialect": "mysql"
+
+  },
+
+  "test": {
+    "username": "ezppay_dev_admin",
+    "password": "@cirruslabs123",
+    "database": "ezppaydevdb",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ezppay_dev_admin",
+    "password": null,
+    "database": "database_production",
+    "host": "ezppay-dev-db.mysql.database.azure.com",
+    "dialect": "mysql"
+
+  }
+
+
+}

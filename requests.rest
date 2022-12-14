@@ -1,0 +1,5 @@
+//page to make api requests
+
+//install rest client
+
+GET http://localhost:3001/passwordrecovery/retrivesecque/
