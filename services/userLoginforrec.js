@@ -30,7 +30,7 @@ exports.userloginid = async (req,res , LoginID) => {
         return query;
 
 
-    }catch(error){
-        throw error;
+    }catch(Error){
+        throw Error;
     }
 }
